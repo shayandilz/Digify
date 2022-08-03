@@ -13594,15 +13594,6 @@ header > div {
   transform: translateY(-40px);
 }
 
-.first-circle:before,
-.first-circle:after {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 @media (max-width: 1199.98px) {
   #navbarNav .nav-link {
     padding: 1rem 0.5rem !important;

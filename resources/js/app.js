@@ -1,5 +1,5 @@
 require('./bootstrap');
-require('./gsap');
+// require('./gsap');
 import 'swiper/css';
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';

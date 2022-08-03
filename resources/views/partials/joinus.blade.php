@@ -8,7 +8,7 @@
         </div>
         <div class="col-6 row justify-content-center align-items-center">
             <div class="col-3 d-flex flex-column align-items-center justify-content-center text-center  position-relative" >
-                <div class="d-flex align-items-center justify-content-center rounded-circle line-dash first-circle"  style="width: 75px;height: 75px">
+                <div class="d-flex align-items-center justify-content-center border rounded-circle line-dash"  style="width: 75px;height: 75px">
                     @include('partials.SVG.joinus')
                 </div>
                 <span class="fs-6 text-dark fw-bold pt-2">

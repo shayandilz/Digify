@@ -1,0 +1,32 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    direction: rtl;
+    background-color: #F9FBFF;
+    font-family: Dana;
+}
+.text-justify{
+    text-align: justify;
+}
+.object-fit{
+    object-fit: cover;
+}
+.neg-margin-top{
+    margin-top: -5rem;
+}
+
+.max-width-25{
+    max-width: 28px;
+}
+
+.lazy{
+    transition: all 0.3s ease-in-out;
+}
+.no-border-first:first-child{
+    border-right: none!important;
+}
+.no-border-last:last-child{
+    border-left: none!important;
+}

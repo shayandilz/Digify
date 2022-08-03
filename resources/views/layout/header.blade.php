@@ -10,7 +10,6 @@
                     <path d="M3 14.5H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M11.5303 19.5H21.0003" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-
             </button>
             <a class="navbar-brand me-0" href="/">
                 <img class="lazy" height="30" src="{{ asset('images/logo-header.svg') }}" alt="">

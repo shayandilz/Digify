@@ -7,6 +7,7 @@ $cerulean-crayola : #27abdb; //lighter
 $indigo : #4B0082;
 $french-violet : #8000DE; //light
 $amethyst : #9966CC; //lighter
+$transparent-pink : #DDD1ED;
 //red
 $persian-red : #D33535;
 $bittersweet : #F46B5E;//light
@@ -26,7 +27,8 @@ $custom-colors: (
     "violet": $indigo,
     "dark": $dark,
     'semi-light': $battleship-grey,
-    'purple': $amethyst
+    'purple': $amethyst,
+    'purple-tr': $transparent-pink
 );
 
 //border

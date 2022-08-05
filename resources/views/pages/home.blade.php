@@ -53,7 +53,7 @@
                 </p>
             </div>
             <div class="col-12 col-lg-6 p-5">
-                <div class="card border-0  bg-transparent">
+                <div class="card border-0 bg-transparent">
                     <div class="card-shadow w-100 h-100 rounded-2 d-flex">
                         <img width="300px" height="400px" src="#" class="card-img-top border border-semi-light rounded-2"
                              alt="...">

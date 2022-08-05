@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/shop-builder', function () {
     return view('pages.shop-builder');
 });
+Route::get('/solutions', function () {
+    return view('pages.solutions');
+});

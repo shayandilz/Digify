@@ -4,10 +4,10 @@
             چرا دیجی‌فای؟
         </h3>
 
-        @for($i=1;$i<7;$i++)
+        @for($i=1;$i<6;$i++)
             <div class="col-4">
                 <div class="bg-purple-tr rounded-1 d-flex justify-content-center align-items-center text-center px-2 py-5">
-                    <p class="text-dark fs-5 py-3 mb-0">
+                    <p class="text-dark fs-5 py-5 mb-0">
                     انجام خودکار فرایندهای وقت‌گیر
                     مانند رصد موجودی، انبارداری، گزارش‌گیری و حسابداری
                 </p>

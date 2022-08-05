@@ -12,12 +12,12 @@
                     کار کردن با فروشگاه‌ساز دیجی‌فای نیاز به هیچگونه تخصص و دانشی ندارد؛ تنها کافی است محصولی برای فروش داشته باشید تا بتوانید بلافاصله پس از ثبت‌نام، به صورت یکجا از تمام ابزارهای ما برای مدیریت کسب‌وکارتان استفاده کنید.
                 </p>
                 <div class="d-flex">
-                        <a href="#" class="w-auto link-white me-md-4 me-3 border rounded-1 btn fs-5 d-flex gap-2 align-items-center">
-                            ثبت‌نام در دیجی‌فای
-                        </a>
-                    <a href="#" class="w-auto link-white me-md-4 me-3 border rounded-1 btn fs-5 d-flex gap-2 align-items-center">
-                            ثبت‌نام در دیجی‌فای
-                        </a>
+                    <a href="#" class="w-auto link-dark ms-3 border rounded-1 btn fs-5 d-flex gap-2 align-items-center">
+                        ثبت‌نام در دیجی‌فای
+                    </a>
+                    <a href="#" class="w-auto link-white border rounded-1 btn fs-5 d-flex gap-2 align-items-center">
+                        ثبت‌نام در دیجی‌فای
+                    </a>
                 </div>
             </div>
         </div>

@@ -22,3 +22,6 @@ Route::get('/shop-builder', function () {
 Route::get('/solutions', function () {
     return view('pages.solutions');
 });
+Route::get('/services', function () {
+    return view('pages.services');
+});

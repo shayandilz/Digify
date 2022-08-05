@@ -16,7 +16,15 @@ body {
 .neg-margin-top{
     margin-top: -5rem;
 }
-
+.transparent{
+    opacity: 0.3;
+}
+.z-top{
+    z-index: 2;
+}
+.gap-6{
+    gap: 6rem!important;
+}
 .max-width-25{
     max-width: 28px;
 }

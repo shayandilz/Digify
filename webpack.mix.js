@@ -21,7 +21,9 @@ mix.copy('resources/images', 'public/images')
 mix.js('resources/js/app.js', 'public/js');
 
 mix.sass('resources/sass/extra-style.scss', 'public/css')
-    .sass('resources/sass/custom.scss', 'public/css/style.css', {}, ).options({
+    .sass('resources/sass/custom.scss', 'public/css/style.css', {}, [
+        require("rtlcss")({}),
+    ]).options({
     processCssUrls: true});
 
 // mix.sass('resources/sass/ltr-style.scss', 'public/css/ltr-style.css');

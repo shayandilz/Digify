@@ -14,7 +14,6 @@
     <link href="{{ asset('css/extra-style.css') }}" rel="stylesheet">
     <!--  for  RTL website -->
     <link href="{{ asset('css/style.css?ver=1.0') }}" rel="stylesheet">
-
     @yield('style')
 
 </head>

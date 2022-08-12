@@ -28,3 +28,6 @@ Route::get('/services', function () {
 Route::get('/blog', function () {
     return view('pages.blog');
 });
+Route::get('/blog-single', function () {
+    return view('pages.blog-single');
+});

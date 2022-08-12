@@ -77,4 +77,5 @@
             @endfor
         </div>
     </section>
+    @include('partials.action-banner')
 @endsection

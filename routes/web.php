@@ -25,3 +25,6 @@ Route::get('/solutions', function () {
 Route::get('/services', function () {
     return view('pages.services');
 });
+Route::get('/blog', function () {
+    return view('pages.blog');
+});

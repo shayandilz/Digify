@@ -129,7 +129,41 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         }
     });
-    swiper3.changeLanguageDirection('rtl');
+    // swiper3.changeLanguageDirection('rtl');
+    var names = [];
+    $(".swiper-wrapper .swiper-slide").each(function(i) {
+        names.push($(this).data("name"));
+    });
+    // var menu = ['Slide 1', 'Slide 2', 'Slide 3']
+    const swiper4 = new Swiper('.swiper4', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+        slidesPerView: 1,
+        grabCursor: false,
+        effect: 'creative',
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (names[index]) + '</span>';
+            },
+        },
+        creativeEffect: {
+            limitProgress: 2,
+            prev: {
+                // will set `translateZ(-400px)` on previous slides
+                translate: [0, 0, 0],
+            },
+            next: {
+                // will set `translateX(100%)` on next slides
+                translate: [10, 10, 0],
+            },
+            shadowPerProgress: true,
+            progressMultiplier: 1
+        }
+    });
+    // swiper4.changeLanguageDirection('rtl');
 })
 
 

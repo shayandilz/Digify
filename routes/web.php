@@ -31,3 +31,6 @@ Route::get('/blog', function () {
 Route::get('/blog-single', function () {
     return view('pages.blog-single');
 });
+Route::get('/pricing', function () {
+    return view('pages.pricing');
+});

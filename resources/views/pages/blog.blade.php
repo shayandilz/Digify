@@ -32,17 +32,17 @@
         </p>
         <div class="row align-items-center justify-content-center">
             <div class="col-10">
-                <div class="swiper swiper3 px-3 overflow-visible">
+                <div class="swiper swiper3 swiper-custom px-3 overflow-visible">
                     <ul class="swiper-wrapper m-0 p-0 list-unstyled">
                         @for($i=1;$i<4;$i++)
                             <li class="swiper-slide position-relative">
                                 <div class="bg-white card-shadow rounded-2 text-center row align-items-center">
-                                    <div class="col-8 ps-0">
+                                    <div class="col-8 pe-0">
                                         <img src="{{asset('images/blog-banner.jpg')}}"
                                              class="img-fluid"
                                              alt="...">
                                     </div>
-                                    <div class="col-4 text-end">
+                                    <div class="col-4 text-start">
                                         <span class="fs-5 text-semi-light text-decoration-underline">بازاریابی شبکه‌های اجتماعی</span>
                                         <h5 class="card-title pt-5">چگونه یک کپشن خوب در
                                             اینستاگرام بنویسیم؟</h5>

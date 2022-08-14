@@ -151,5 +151,32 @@
         font-size: 13px!important;
     }
 }
-
+.swiper4{
+    .swiper-pagination{
+        background-color: #E6E7E8!important;
+        border-radius: 27px!important;
+        .swiper-pagination-bullet{
+            background-color: transparent!important;
+            width: auto!important;
+            height: auto!important;
+            padding: 8px 18px!important;
+            border-radius: 27px!important;
+        }
+        .swiper-pagination-bullet.swiper-pagination-bullet-active{
+            background-color: #FFFFFF!important;
+            font-weight: 600!important;
+        }
+    }
+}
+.link-background {
+    position: absolute;
+    left: 30px;
+    top: 53px;
+    background: #5e4ecb;
+    border-radius: 18px;
+    width: 153px;
+    height: 70px;
+    z-index: 0;
+    transition: 0.4s cubic-bezier(0.7, 0, 0.38, 0.86) all;
+}
 @import "responsive";

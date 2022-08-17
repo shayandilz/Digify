@@ -1,14 +1,14 @@
 <footer class="bg-white pt-5">
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-12">
                 @include('partials.SVG.footer')
                 <p class="pt-5 text-justify">
                     دیجی‌فای، ابزاری برای تمام کسب‌وکارهای حضوری و غیرحضوریست که محصولی برای فروش دارند. كار اصلی ما اين است كه انجام كارها را برای شما ساده‌ كنيم و به كسب و كارتان رونق ببخشيم. هر كسی با هر میزان دانشی می‌تواند به سادگی وارد اين دنيای ديجيتالی شگفت‌انگيز شود.
 
                 </p>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-6">
                 <h6 class="fw-bold pb-4">
                     اطلاعات تماس
                 </h6>
@@ -30,7 +30,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-lg col-6">
                 <h6 class="fw-bold pb-4">
                     شبکه‌های اجتماعی
                 </h6>
@@ -57,7 +57,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-lg col-6">
                 <h6 class="fw-bold pb-4">
                     دسترسی سریع
                 </h6>
@@ -79,7 +79,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-lg col-6">
                 <h6 class="fw-bold pb-4">
                     لینک‌های مفید
                 </h6>
@@ -102,8 +102,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row mb-5 justify-content-end">
-            <div class="col-3 d-inline-flex justify-content-end gap-5 ps-5">
+        <div class="row mb-5 justify-content-lg-end justify-content-center">
+            <div class="col-3 d-inline-flex justify-content-lg-end justify-content-center gap-5 ps-lg-5">
                 <div class="border-semi-light border rounded-3 ">
                     <img width="120px" height="120px" class="p-1 rounded-3" src="{{asset('images/etemad.png')}}" alt="">
                 </div>

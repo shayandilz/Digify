@@ -20,11 +20,9 @@
 <body class="p-0">
     <div id="app">
         @include('layout.header')
-
-        <main class="z-top position-relative">
+        <main>
             @yield('content')
         </main>
-
         @include('layout.footer')
     </div>
 </body>

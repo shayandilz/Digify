@@ -29,9 +29,12 @@
         <div class="row">
             @for($i=1;$i<9;$i++)
                 <a href="#"
-                   class="d-flex flex-column align-items-center gap-4 col border-start border-semi-light text-center no-border-first no-border-last menu-svg ">
+                   class="d-flex flex-column align-items-center gap-4 col-lg col-6 border-start border-semi-light text-center no-border-first no-border-last menu-svg">
                     <div class="position-relative max-width-28 py-2">
-                        @include('partials.SVG.icon-menu')
+                        {{--                        @include('partials.SVG.icon-menu')--}}
+                        <span class="icon---_2"><span class="path1"></span><span class="path2"></span><span
+                                class="path3"></span><span class="path4"></span><span class="path5"></span><span
+                                class="path6"></span></span>
                     </div>
                     <span class="fs-5 text-dark pb-2">پرداخت امن و اختصاصی</span>
                 </a>
@@ -39,9 +42,9 @@
         </div>
     </section>
     {{-- about --}}
-    <section class="container p-5">
+    <section class="container p-lg-5 px-4">
         <div class="row">
-            <div class="col-12 col-lg-6 text-dark p-5">
+            <div class="col-12 col-lg-6 text-dark p-lg-5">
                 <h3 class="pb-4 lh-base fw-bold">
                     دیجی‌فای:
                     <br>
@@ -52,10 +55,11 @@
                     فروش آنلاین بگذارید.
                 </p>
             </div>
-            <div class="col-12 col-lg-6 p-5">
+            <div class="col-12 col-lg-6 p-lg-5">
                 <div class="card border-0 bg-transparent">
                     <div class="card-shadow w-100 h-100 rounded-2 d-flex">
-                        <img width="300px" height="400px" src="#" class="card-img-top border border-semi-light rounded-2"
+                        <img width="300px" height="400px" src="#"
+                             class="card-img-top border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
@@ -68,10 +72,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-6 translate-middle-y p-5">
+            <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5">
                 <div class="card border-0  bg-transparent">
                     <div class="card-shadow w-100 h-100  rounded-2 d-flex">
-                        <img width="300px" height="400px" src="#" class="card-img-top border border-semi-light rounded-2"
+                        <img width="300px" height="400px" src="#"
+                             class="card-img-top border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
@@ -82,10 +87,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 p-5">
+            <div class="col-12 col-lg-6 p-lg-5">
                 <div class="card border-0 bg-transparent">
                     <div class="card-shadow w-100 h-100  rounded-2 d-flex">
-                        <img width="300px" height="400px" src="#" class="card-img-top border border-semi-light rounded-2"
+                        <img width="300px" height="400px" src="#"
+                             class="card-img-top border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
@@ -111,7 +117,7 @@
         <div class="row pt-5">
             @for($i=1;$i<7;$i++)
                 <div
-                    class="col overflow-hidden py-5 border-start border-semi-light text-center no-border-first no-border-last">
+                    class="col-lg col-6 overflow-hidden py-lg-5 border-start border-semi-light text-center no-border-first no-border-last">
                     <div class="swiper swiper1">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">@include('partials.SVG.brand')</div>
@@ -126,8 +132,8 @@
     </section>
     {{-- testimonial --}}
     <section class="container py-5">
-        <h3 class="text-center fw-bold text-dark">
-            دیگران درباره <span class="highlight-yellow">دیجی فای</span> چه میگویند؟
+        <h3 class="text-center fw-bold text-dark fs-3">
+            دیگران درباره <span class="highlight-yellow fs-3">دیجی فای</span> چه میگویند؟
         </h3>
         <div class="row">
             <div class="swiper swiper2 px-3">
@@ -145,7 +151,10 @@
                                 <div class="card-body neg-margin-top">
                                     <h5 class="card-title">برند سیسکراب</h5>
                                     <a href="#" class="card-link">www.siscrub.com</a>
-                                    <p class="card-text pt-2">خوشحالم که با تیم جوون و پرانرژی دیجی‌فای آشنا شدم. سایتی که برام ساختن خیلی کار رو برام آسون کرده و تیم پشتیبانیشون خیلی سریع به تمام سوالاتم همیشه پاسخ دادن. امیدوارم روز به روز دیجی‌فای گسترده‌تر بشه و به کسب و کارهای بیشتری کمک کنه.</p>
+                                    <p class="card-text pt-2">خوشحالم که با تیم جوون و پرانرژی دیجی‌فای آشنا شدم. سایتی
+                                        که برام ساختن خیلی کار رو برام آسون کرده و تیم پشتیبانیشون خیلی سریع به تمام
+                                        سوالاتم همیشه پاسخ دادن. امیدوارم روز به روز دیجی‌فای گسترده‌تر بشه و به کسب و
+                                        کارهای بیشتری کمک کنه.</p>
                                 </div>
                             </div>
                         </div>

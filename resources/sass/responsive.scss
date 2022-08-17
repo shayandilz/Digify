@@ -1,15 +1,13 @@
 @include media-breakpoint-up(lg) {
-    //header {
-    //    .navbar-brand img {
-    //        height: 50px;
-    //    }
-    //
-    //    &.scrolled {
-    //        .navbar-brand img {
-    //            height: 45px !important;
-    //        }
-    //    }
-    //}
+
+}
+@include media-breakpoint-down(lg) {
+    .no-border-first.no-border-last{
+        border: none!important;
+    }
+    .no-translate{
+        transform: none!important;
+    }
 }
 
 
@@ -37,11 +35,11 @@
     }
 
     .fs-5 {
-        font-size: 1.2rem !important;
+        font-size: 0.9rem !important;
     }
 
     .fs-6, p, span {
-        font-size: 0.95rem !important;
+        font-size: 0.75rem !important;
         line-height: 1.7;
     }
 

@@ -34,3 +34,9 @@ Route::get('/blog-single', function () {
 Route::get('/pricing', function () {
     return view('pages.pricing');
 });
+Route::get('/about-us', function () {
+    return view('pages.about-us');
+});
+Route::get('/marketing', function () {
+    return view('pages.marketing');
+});

@@ -1,5 +1,6 @@
 // Fonts
 @import '../fonts/Dana/fontface';
+@import '../fonts/icomoon/icomoon';
 @import 'modules/bootstrap-icons';
 
 //custom classes
@@ -48,7 +49,7 @@
 }
 //smart shadows behind cards
 .card-shadow {
-    box-shadow: 15px 15px 0px 0px #000;
+    box-shadow: -15px 15px 0px 0px #000;
 }
 
 //line between circles in JOIN US section
@@ -57,7 +58,7 @@
     position: absolute;
     width: 40%;
     height: 1px;
-    right: 80%;
+    left: 80%;
     background-color: #000;
 }
 
@@ -152,6 +153,9 @@
     }
 }
 .swiper4{
+    .swiper-slide.swiper-slide-active{
+        overflow: visible!important;
+    }
     .swiper-pagination{
         background-color: #E6E7E8!important;
         border-radius: 27px!important;
@@ -167,16 +171,21 @@
             font-weight: 600!important;
         }
     }
+    ul.text-start{
+        list-style: none;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        li::before {
+            content: "\2022";
+            color: #000;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            line-height: 35px;
+        }
+    }
 }
-.link-background {
-    position: absolute;
-    left: 30px;
-    top: 53px;
-    background: #5e4ecb;
-    border-radius: 18px;
-    width: 153px;
-    height: 70px;
-    z-index: 0;
-    transition: 0.4s cubic-bezier(0.7, 0, 0.38, 0.86) all;
-}
+
 @import "responsive";

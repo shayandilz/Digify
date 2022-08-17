@@ -5,7 +5,7 @@
         </h3>
 
         @for($i=1;$i<6;$i++)
-            <div class="col-4">
+            <div class="col-lg-4 col-6">
                 <div class="bg-purple-tr rounded-1 d-flex justify-content-center align-items-center text-center px-2 py-5">
                     <p class="text-dark fs-5 py-5 mb-0">
                     انجام خودکار فرایندهای وقت‌گیر

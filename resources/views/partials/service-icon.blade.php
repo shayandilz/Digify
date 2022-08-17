@@ -4,7 +4,7 @@
             خدمات یکپارچه دیجی‌فای؛پاسخگوی تمام نیازهای شما
         </h3>
         @for($i=1;$i<5;$i++)
-            <div class="col d-flex justify-content-start flex-column">
+            <div class="col-lg col-6 d-flex justify-content-start flex-column">
                 <a href="#"
                    class="pb-4 d-flex flex-column align-items-start gap-3 col text-start menu-svg ">
                     <div class="position-relative max-width-28">

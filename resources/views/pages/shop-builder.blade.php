@@ -6,12 +6,12 @@
 
     @include('partials.service-icon')
 
-    <section class="py-5 container">
+    <section class="py-5 container px-4 px-lg-0">
         <div class="row">
             <h3 class="text-center pb-5 text-dark">
                 فروشگاه‌ساز دیجی‌فای چگونه کار می‌کند؟
             </h3>
-            <div class="col-6">
+            <div class="col-lg-6 col-12 d-flex flex-column justify-content-evenly">
                 @for($i=1;$i<4;$i++)
                     <div class="pb-3">
                         <h5 class="text-dark fw-bold">
@@ -23,7 +23,7 @@
                     </div>
                 @endfor
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <div class="card-shadow w-100 h-100 rounded-2 d-flex">
                     <img width="250px" height="550px" src="#" class="card-img-top border border-semi-light rounded-2"
                          alt="...">
@@ -38,7 +38,7 @@
                 جدیدترین پست‌های بلاگ دیجی‌فای
             </h3>
             @for($i=1;$i<3;$i++)
-                <div class="col-6">
+                <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     @include('partials.blog-post')
                 </div>
             @endfor

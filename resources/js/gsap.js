@@ -12,6 +12,24 @@ MorphSVGPlugin.defaultType = "linear";
 
 $(function () {
 
+    gsap.registerPlugin(ScrollTrigger);
+    let sections = gsap.utils.toArray("section");
+
+    sections.forEach((section) => {
+        let title = section.querySelector(".card-up");
+        gsap
+            .timeline({
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top center",
+                    end: "bottom center",
+                    scrub: true,
+                    markers: true
+                }
+            })
+            .fromTo(title, {translateY: 0},{translateY: -130})
+    });
+
     // let rule = CSSRulePlugin.getRule(".first-circle")
     //
     // let lineSVG = gsap.timeline({

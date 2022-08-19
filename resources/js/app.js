@@ -1,5 +1,5 @@
 require('./bootstrap');
-// require('./gsap');
+
 import 'swiper/css';
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
@@ -7,6 +7,7 @@ import $ from 'jquery';
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    require('./gsap');
     //play pause button
     let playButton = document.getElementById("play_button");
     let video_tr = document.getElementById("video_tr")
@@ -132,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     // swiper3.changeLanguageDirection('rtl');
-    var names = [];
+    let names = [];
     $(".swiper-wrapper .swiper-slide").each(function(i) {
         names.push($(this).data("name"));
     });
@@ -168,5 +169,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // swiper4.changeLanguageDirection('rtl');
 
 })
+
 
 

@@ -5,7 +5,7 @@
     <section
         style="background-image: url({{asset('images/home-header.jpg')}}); background-size: cover;background-repeat: no-repeat;"
         class="flex-column d-flex justify-content-center align-items-center vh-65">
-        <div class="container text-center text-white">
+        <div class="container text-center text-white ">
             <h1 class="pb-5 fw-bolder lh-lg fs-1">
                 به جمع ۲۰۰۰+ فروشندگان دیجی‌فای بپیوندید و
                 یک ماه رایگان از تمام خدمات ما استفاده کنید.
@@ -29,9 +29,9 @@
         <div class="row">
             @for($i=1;$i<9;$i++)
                 <a href="#"
-                   class="d-flex flex-column align-items-center gap-1 col-lg col-6 border-start border-semi-light text-center no-border-first no-border-last menu-svg">
+                   class="fadein d-flex flex-column align-items-center gap-1 col-lg col-6 border-start border-semi-light text-center no-border-first no-border-last menu-svg">
                     <div class="position-relative max-width-28 py-2">
-                         @include('partials.SVG.icon-menu')
+                        @include('partials.SVG.icon-menu')
                     </div>
                     <h6 class="fs-6 fw-light text-dark pb-2">پرداخت امن </h6>
                 </a>
@@ -53,7 +53,7 @@
                 </p>
             </div>
             <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0">
-                <div class="card border-0 bg-transparent">
+                <div class="card border-0 bg-transparent card-up">
                     <div class="card-shadow w-100 h-100 rounded-2 d-flex">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
@@ -70,8 +70,8 @@
         </div>
         <div class="row">
             <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5 mb-3 mb-lg-0">
-                <div class="card border-0  bg-transparent">
-                    <div class="card-shadow w-100 h-100  rounded-2 d-flex">
+                <div class="card border-0 bg-transparent card-up">
+                    <div class="card-shadow w-100 h-100 rounded-2 d-flex">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
                              alt="...">

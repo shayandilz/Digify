@@ -3,10 +3,10 @@
 @section('content')
     {{--  hero  --}}
     <section
-        style="background-image: url({{asset('images/home-header.jpg')}}); background-size: cover;background-repeat: no-repeat;height: 800px"
-        class="flex-column d-flex justify-content-center align-items-center">
+        style="background-image: url({{asset('images/home-header.jpg')}}); background-size: cover;background-repeat: no-repeat;"
+        class="flex-column d-flex justify-content-center align-items-center vh-65">
         <div class="container text-center text-white">
-            <h1 class="pb-5 fw-bolder lh-lg">
+            <h1 class="pb-5 fw-bolder lh-lg fs-1">
                 به جمع ۲۰۰۰+ فروشندگان دیجی‌فای بپیوندید و
                 یک ماه رایگان از تمام خدمات ما استفاده کنید.
             </h1>
@@ -41,8 +41,8 @@
     {{-- about --}}
     <section class="container p-lg-5 px-4">
         <div class="row">
-            <div class="col-12 col-lg-6 text-dark p-lg-5">
-                <h3 class="pb-4 lh-base fw-bolder">
+            <div class="col-12 col-lg-6 text-dark p-lg-5 mb-5 mb-lg-0">
+                <h3 class="pb-lg-4 pb-2 lh-base fw-bolder">
                     دیجی‌فای:
                     <br>
                     شروع مسیر فروش آنلاین
@@ -52,7 +52,7 @@
                     فروش آنلاین بگذارید.
                 </p>
             </div>
-            <div class="col-12 col-lg-6 p-lg-5">
+            <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0">
                 <div class="card border-0 bg-transparent">
                     <div class="card-shadow w-100 h-100 rounded-2 d-flex">
                         <img width="300px" height="400px" src="#"
@@ -60,7 +60,7 @@
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
-                        <h5 class="card-title py-3 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
+                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
                         <p class="card-text">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
                             می‌دهد تا با وارد کردن اطلاعاتتان، یک وب‌سایت اختصاصی برای کسب‌وکارتان بسازید، آن‌را
                             شخصی‌سازی کنید و یک بستر حرفه‌ای برای فروش آنلاین محصولاتتان ایجاد کنید.</p>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5">
+            <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5 mb-3 mb-lg-0">
                 <div class="card border-0  bg-transparent">
                     <div class="card-shadow w-100 h-100  rounded-2 d-flex">
                         <img width="300px" height="400px" src="#"
@@ -77,14 +77,14 @@
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
-                        <h5 class="card-title py-3 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
+                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
                         <p class="card-text">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
                             می‌دهد تا با وارد کردن اطلاعاتتان، یک وب‌سایت اختصاصی برای کسب‌وکارتان بسازید، آن‌را
                             شخصی‌سازی کنید و یک بستر حرفه‌ای برای فروش آنلاین محصولاتتان ایجاد کنید.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 p-lg-5">
+            <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0">
                 <div class="card border-0 bg-transparent">
                     <div class="card-shadow w-100 h-100  rounded-2 d-flex">
                         <img width="300px" height="400px" src="#"
@@ -92,7 +92,7 @@
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
-                        <h5 class="card-title py-3 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
+                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
                         <p class="card-text">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
                             می‌دهد تا با وارد کردن اطلاعاتتان، یک وب‌سایت اختصاصی برای کسب‌وکارتان بسازید، آن‌را
                             شخصی‌سازی کنید و یک بستر حرفه‌ای برای فروش آنلاین محصولاتتان ایجاد کنید.</p>

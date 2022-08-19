@@ -17,38 +17,38 @@
             <div class="collapse navbar-collapse justify-content-start mt-4 mt-lg-0" id="navbarNav">
                 <ul class="navbar-nav pe-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                        <a class="nav-link active" aria-current="page" href="/">خانه</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">فروشگاه ساز</a>
+                        <a class="nav-link" href="/shop-builder">فروشگاه ساز</a>
 
                     </li>
                     <li class="nav-item custom-dropdown position-relative">
-                        <a class="nav-link" href="#">خدمات دیجی فای</a>
+                        <a class="nav-link" href="/services">خدمات دیجی فای</a>
                         <ul class="bg-white px-2 dropdown-menu w-auto text-end">
                             <li class="d-flex align-items-center p-1 p-lg-3 gap-3 menu-svg">
                                 <div class="position-relative">
                                     @include('partials.SVG.icon-menu')
                                 </div>
-                                <a class="dropdown-item p-0  lazy" href="#">خدمات یکپارچه دیجی‌فای</a>
+                                <a class="dropdown-item p-0  lazy" href="/marketing">خدمات یکپارچه دیجی‌فای</a>
                             </li>
                             <li><hr class="dropdown-divider"></li>
                             <li class="d-flex align-items-center p-1 p-lg-3 gap-3 menu-svg">
                                 <div class="position-relative">
                                     @include('partials.SVG.icon-menu')
                                 </div>
-                                <a class="dropdown-item p-0 lazy" href="#">خدمات پست و ارسال</a>
+                                <a class="dropdown-item p-0 lazy" href="/marketing">خدمات پست و ارسال</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">راهکارها</a>
+                        <a class="nav-link" href="/solutions">راهکارها</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">تعرفه ها</a>
+                        <a class="nav-link" href="/pricing">تعرفه ها</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">بلاگ</a>
+                        <a class="nav-link" href="/blog">بلاگ</a>
                     </li>
                 </ul>
                 <div class="d-flex d-xl-none align-items-center">

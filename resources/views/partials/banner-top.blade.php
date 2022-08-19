@@ -5,7 +5,7 @@
 
             </div>
             <div class="col-lg-6 col-12">
-                <h1 class="text-dark fw-bold">
+                <h1 class="text-dark fw-bold lh-base">
                     یک فروشگاه اینترنتی حاضر و آماده
                 </h1>
                 <p>

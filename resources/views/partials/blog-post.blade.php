@@ -1,4 +1,4 @@
-<div class="card bg-transparent border-0 text-bg-dark">
+<a href="/blog-single" class="card bg-transparent border-0 text-bg-dark">
     <div class="position-relative">
         <img src="{{asset('images/blog-post.png')}}" class="card-img" alt="...">
         <div class="card-img-overlay p-4">
@@ -15,4 +15,4 @@
         این مقاله را بخوانید
         @include('partials.SVG.arrow-icon')
     </a>
-</div>
+</a>

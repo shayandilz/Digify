@@ -1,6 +1,6 @@
 <section class="py-5 container">
     <div class="row g-3">
-        <h3 class="text-dark pb-4 fs-2 fw-bolder">
+        <h3 class="text-dark pb-4 fs-2 fw-bolder lh-base">
             خدمات یکپارچه دیجی‌فای؛پاسخگوی تمام نیازهای شما
         </h3>
         @for($i=1;$i<5;$i++)

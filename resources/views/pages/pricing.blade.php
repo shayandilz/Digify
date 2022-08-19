@@ -81,7 +81,7 @@
                 چرا دیجی‌فای را انتخاب کنیم؟
             </h3>
             @for($i=1;$i<5;$i++)
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                     <div class="menu-svg flex-column gap-3 d-flex justify-content-start">
                         <div class="position-relative">
                             @include('partials.SVG.icon-menu')

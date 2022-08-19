@@ -1,5 +1,5 @@
 <section class="container py-5">
-    <div class="bg-purple py-5 px-2 rounded-2 text-center">
+    <div class="bg-purple p-5 rounded-2 text-center">
             <div class="mphpx-5">
                 <h4 class="text-center lh-lg fs-3 text-white pb-5">
                     به جمع بیش از ۴۰۰۰ فروشنده دیجی‌فای بپیوندید و

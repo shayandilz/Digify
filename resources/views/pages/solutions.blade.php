@@ -2,28 +2,28 @@
 
 @section('content')
 
-    <section class="py-5 d-flex align-items-center bg-white vh-65">
+    <section class="py-5 d-flex align-items-center">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-12">
                     <h1 class="text-dark fw-bold lh-base pb-3">
                         هر کسب‌وکاری که دارید، دیجی‌فای در خدمت شماست
                     </h1>
-                    <p class="fs-5 mb-4">
+                    <p class="mb-4">
                         فرقی ندارد کسب‌وکار اینستاگرامی دارید یا حضوری، خودتان همه کارها را می‌کنید یا تیم بزرگی دارید، با دیجی‌فای کسب‌وکار شما بزرگ‌تر می‌شود.
                     </p>
-                    <div class="d-flex">
-                        <a href="#" class="w-auto link-dark me-3 border rounded-1 btn fs-5 d-flex gap-2 align-items-center">
+                    <div class="d-flex gap-5">
+                        <a href="#" class="w-auto link-dark border rounded-1 btn fs-6 d-flex gap-2 align-items-center">
                             ثبت‌نام در دیجی‌فای
                         </a>
-                        <a href="#" class="w-auto link-white border rounded-1 btn fs-5 d-flex gap-2 align-items-center">
+                        <a href="#" class="w-auto link-white border rounded-1 btn fs-6 d-flex gap-2 align-items-center">
                             ثبت‌نام در دیجی‌فای
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12">
-                    <div class="card-shadow w-100 h-100 rounded-2 d-flex">
-                        <img width="450px" height="350px" src="{{asset('images/home-header.jpg')}}" class="card-img-top border border-semi-light rounded-2"
+                <div class="col-lg-6 col-12 mt-5 mt-lg-0 px-4">
+                    <div class="card-shadow w-100 h-100 rounded-2 d-flex ratio-16x9 ratio">
+                        <img src="{{asset('images/home-header.jpg')}}" class="object-fit card-img-top border border-semi-light rounded-2"
                              alt="...">
                     </div>
                 </div>
@@ -55,12 +55,15 @@
     </section>
     <section class="container py-5">
         <div class="row justify-content-center align-items-center">
-            <h3 class="text-center pb-5 text-dark">
+            <h3 class="text-center pb-5 text-dark fs-2 fw-bolder">
                 فروشگاه‌ساز دیجی‌فای چگونه کار می‌کند؟
             </h3>
-            <div class="col-12 gap-6 d-flex justify-content-center align-items-center">
-                <div class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="bg-white rounded-1 w-100">
+            <div class="col-12 gap-6 d-flex flex-lg-row flex-column justify-content-center align-items-center">
+                <div class="d-flex flex-column justify-content-center align-items-center ">
+                    <div class="bg-white rounded-1 w-100 position-relative">
+                        <div class="position-absolute top-50 start-100 translate-middle-y d-none d-lg-block">
+                            @include('partials.SVG.arrow-left')
+                        </div>
                         <a href="#"
                            class="m-5 d-flex flex-column align-items-center gap-4 col text-center menu-svg ">
                             <div class="position-relative max-width-28 py-2 z-top">
@@ -68,7 +71,21 @@
                             </div>
                         </a>
                     </div>
-                    <span class="fs-5 text-dark pt-2">پرداخت امن و اختصاصی</span>
+                    <span class="fs-6 fw-lighter text-dark pt-4">پرداخت امن و اختصاصی</span>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="bg-white rounded-1 w-100 position-relative">
+                        <div class="position-absolute top-50 start-100 translate-middle-y d-none d-lg-block">
+                            @include('partials.SVG.arrow-left')
+                        </div>
+                        <a href="#"
+                           class="m-5 d-flex flex-column align-items-center gap-4 col text-center menu-svg ">
+                            <div class="position-relative max-width-28 py-2 z-top">
+                                @include('partials.SVG.icon-menu')
+                            </div>
+                        </a>
+                    </div>
+                    <span class="fs-6 fw-lighter text-dark pt-4">پرداخت امن و اختصاصی</span>
                 </div>
                 <div class="d-flex flex-column justify-content-center align-items-center">
                     <div class="bg-white rounded-1 w-100">
@@ -79,18 +96,7 @@
                             </div>
                         </a>
                     </div>
-                    <span class="fs-5 text-dark pt-2">پرداخت امن و اختصاصی</span>
-                </div>
-                <div class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="bg-white rounded-1 w-100">
-                        <a href="#"
-                           class="m-5 d-flex flex-column align-items-center gap-4 col text-center menu-svg ">
-                            <div class="position-relative max-width-28 py-2 z-top">
-                                @include('partials.SVG.icon-menu')
-                            </div>
-                        </a>
-                    </div>
-                    <span class="fs-5 text-dark pt-2">پرداخت امن و اختصاصی</span>
+                    <span class="fs-6 fw-lighter text-dark pt-4">پرداخت امن و اختصاصی</span>
                 </div>
             </div>
         </div>

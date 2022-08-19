@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="pt-nav container">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-12">
                 <nav aria-label="breadcrumb">
@@ -19,16 +19,16 @@
                 </nav>
             </div>
         </div>
-        <section class="row py-5">
-            <div class="col-6">
+        <section class="row flex-column-reverse flex-lg-row py-0 py-lg-5 gap-lg-0 gap-5">
+            <div class="col-lg-6 col-12">
                 <h1 class="fs-3 fw-bold text-dark">
                     چگونه یک کپشن خوب در اینستاگرام بنویسیم؟
                 </h1>
-                <div class="d-inline-flex">
-                    <span class="text-semi-light">
+                <div class="d-inline-flex w-100 justify-content-between justify-content-lg-start">
+                    <span class="text-semi-light small fw-lighter">
                         زمان خواندن: پنج دقیقه
                     </span>
-                    <span class="text-semi-light ms-5">
+                    <span class="text-semi-light ms-5 small fw-lighter">
                         تاریخ انتشار: ۱۴۰۱/۰۳/۰۲
                     </span>
                 </div>
@@ -53,14 +53,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <img src="{{asset('images/blog-banner.jpg')}}"
                      class="img-fluid"
                      alt="...">
             </div>
         </section>
         <section class="row py-5">
-            <article class="col-10 text-dark d-flex gap-3 flex-column">
+            <article class="col-lg-10 col-12 text-dark d-flex gap-3 flex-column">
                 <p>
                     کپشن خوب در اینستاگرام چیست؟ هر کس ممکن است جواب خاصی به این سؤال بدهد. یکی ممکن است بگوید کپشنی خوب
                     است که واضح و شفاف منظور را برساند و دیگری ممکن است بگوید کپشنی که احساسات مخاطب را برانگیزد. واقعیت
@@ -74,9 +74,9 @@
                 <img src="{{asset('images/blog-banner.jpg')}}"
                      class="img-fluid"
                      alt="...">
-                <h2>
+                <h5>
                     اینگیجمنت بالا، کلید کپشن خوب در اینستاگرام
-                </h2>
+                </h5>
 
                 <p>
                     کپشن خوب در اینستاگرام چیست؟ هر کس ممکن است جواب خاصی به این سؤال بدهد. یکی ممکن است بگوید کپشنی خوب
@@ -89,7 +89,7 @@
                     خاصی به مشتری ارائه می‌دهند را بگوییم.
                 </p>
             </article>
-            <aside class="col-2">
+            <aside class="col-lg-2 col-12">
                 <div class="bg-purple d-flex flex-column gap-4 px-3 py-5 text-center">
                     <span class="text-white">
                         یک ماه
@@ -103,13 +103,13 @@
                     </a>
                 </div>
             </aside>
-            <section class="col-10 py-5">
-                <h6 class="pb-3 text-center fs-3 fw-bold">جدیدترین پست‌های بلاگ دیجی‌فای</h6>
-                <div class="row">
-                    <div class="col-6">
+            <section class="col-lg-10 col-12 py-5">
+                <h6 class="pb-3 text-start text-lg-center fs-3 fw-bold">جدیدترین پست‌های بلاگ دیجی‌فای</h6>
+                <div class="row gap-5 gap-lg-0">
+                    <div class="col-lg-6 col-12">
                         @include('partials.blog-post')
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-12">
                         @include('partials.blog-post')
                     </div>
                 </div>

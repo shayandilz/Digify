@@ -3,9 +3,9 @@
     display: none;
     position: absolute;
     top: 60px;
-    right: -1px;
+    left: -1px;
     z-index: 1;
-    text-align: left;
+    text-align: right;
     @include media-breakpoint-down(lg){
         position: relative;
         top: auto;

@@ -6,11 +6,11 @@
         style="background-image: url({{asset('images/home-header.jpg')}}); background-size: cover;background-repeat: no-repeat;height: 800px"
         class="flex-column d-flex justify-content-center align-items-center">
         <div class="container text-center text-white">
-            <h1 class="pb-5 lh-lg">
+            <h1 class="pb-5 fw-bolder lh-lg">
                 به جمع ۲۰۰۰+ فروشندگان دیجی‌فای بپیوندید و
                 یک ماه رایگان از تمام خدمات ما استفاده کنید.
             </h1>
-            <a class="btn link-dark">
+            <a class="btn link-dark d-inline-flex align-items-center w-auto justify-content-center">
                 ثبت‌نام در دیجی‌فای
             </a>
         </div>
@@ -18,10 +18,10 @@
     {{-- services --}}
     <section class="container py-5">
         <div class="row justify-content-center align-items-center text-center">
-            <h3 class="text-dark fw-bold">
+            <h3 class="text-dark fw-bolder">
                 خدمات اختصاصی دیجی‌فای
             </h3>
-            <p class="pb-4 text-dark">
+            <p class="py-4 text-dark fw-light">
                 دیجی‌فای تمام ابزارها و نرم‌افزارهای جانبی برای مدیریت کسب‌وکارتان را همیشه و همه‌جا در اختیار شما قرار
                 می‌دهد. کافی است با گوشی موبایل یا لپتاپ وارد پنل مدیریتی فروشگاه خود شوید.
             </p>
@@ -29,14 +29,11 @@
         <div class="row">
             @for($i=1;$i<9;$i++)
                 <a href="#"
-                   class="d-flex flex-column align-items-center gap-4 col-lg col-6 border-start border-semi-light text-center no-border-first no-border-last menu-svg">
+                   class="d-flex flex-column align-items-center gap-1 col-lg col-6 border-start border-semi-light text-center no-border-first no-border-last menu-svg">
                     <div class="position-relative max-width-28 py-2">
-                        {{--                        @include('partials.SVG.icon-menu')--}}
-                        <span class="icon---_2"><span class="path1"></span><span class="path2"></span><span
-                                class="path3"></span><span class="path4"></span><span class="path5"></span><span
-                                class="path6"></span></span>
+                         @include('partials.SVG.icon-menu')
                     </div>
-                    <span class="fs-5 text-dark pb-2">پرداخت امن و اختصاصی</span>
+                    <h6 class="fs-6 fw-light text-dark pb-2">پرداخت امن </h6>
                 </a>
             @endfor
         </div>
@@ -45,7 +42,7 @@
     <section class="container p-lg-5 px-4">
         <div class="row">
             <div class="col-12 col-lg-6 text-dark p-lg-5">
-                <h3 class="pb-4 lh-base fw-bold">
+                <h3 class="pb-4 lh-base fw-bolder">
                     دیجی‌فای:
                     <br>
                     شروع مسیر فروش آنلاین
@@ -111,7 +108,7 @@
     @include('partials.joinus')
     {{--  partners  --}}
     <section class="container py-5">
-        <h3 class="text-center fw-bold text-dark">
+        <h3 class="text-center fw-bolder text-dark">
             همکاران ما در مسیر ارائه خدمات یکپارچه به شما:
         </h3>
         <div class="row pt-5">
@@ -132,7 +129,7 @@
     </section>
     {{-- testimonial --}}
     <section class="container py-5">
-        <h3 class="text-center fw-bold text-dark fs-3">
+        <h3 class="text-center fw-bolder text-dark fs-3">
             دیگران درباره <span class="highlight-yellow fs-3">دیجی فای</span> چه میگویند؟
         </h3>
         <div class="row">
@@ -144,13 +141,13 @@
                                 <div class="position-relative" style="top: -80px">
                                     <img src="{{asset('images/testimony-image.jpg')}}"
                                          width="160px"
-                                         class=" rounded-circle mx-auto d-block img-thumbnail"
+                                         class=" rounded-circle mx-auto d-block"
                                          alt="...">
 
                                 </div>
                                 <div class="card-body neg-margin-top">
                                     <h5 class="card-title">برند سیسکراب</h5>
-                                    <a href="#" class="card-link">www.siscrub.com</a>
+                                    <a href="#" class="card-link text-card">www.siscrub.com</a>
                                     <p class="card-text pt-2">خوشحالم که با تیم جوون و پرانرژی دیجی‌فای آشنا شدم. سایتی
                                         که برام ساختن خیلی کار رو برام آسون کرده و تیم پشتیبانیشون خیلی سریع به تمام
                                         سوالاتم همیشه پاسخ دادن. امیدوارم روز به روز دیجی‌فای گسترده‌تر بشه و به کسب و

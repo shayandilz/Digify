@@ -30,7 +30,8 @@ $custom-colors: (
     "navblack" : $nav-black,
     'semi-light': $battleship-grey,
     'purple': $amethyst,
-    'purple-tr': $transparent-pink
+    'purple-tr': $transparent-pink,
+    'card':$cerulean-crayola
 );
 
 //border
@@ -43,7 +44,7 @@ $border-radius-lg: 20px;
 //font
 
 
-$small: 0.87rem!important;
+$small: 0.87rem;
 $font-size-sm:$small;
 $font-sizes: (
     1: 2.5rem,

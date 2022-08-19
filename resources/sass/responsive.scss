@@ -8,6 +8,27 @@
     .no-translate{
         transform: none!important;
     }
+    .swiper-custom .swiper-button-prev{
+        bottom: -80px!important;
+        top: unset!important;
+        right: unset!important;
+        left: 30%!important;
+    }
+    .swiper-custom .swiper-button-next{
+        bottom: -80px!important;;
+        top: unset!important;;
+        left: unset!important;;
+        right: 30%!important;
+    }
+    .swiper4 .swiper-pagination{
+        float: none!important;
+        bottom: 60px!important;
+    }
+    //blog
+    .top-blog{
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
 }
 
 

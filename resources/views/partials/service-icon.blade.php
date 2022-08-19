@@ -1,6 +1,6 @@
 <section class="py-5 container">
-    <div class="row">
-        <h3 class="text-dark pb-4">
+    <div class="row g-3">
+        <h3 class="text-dark pb-4 fs-2 fw-bolder">
             خدمات یکپارچه دیجی‌فای؛پاسخگوی تمام نیازهای شما
         </h3>
         @for($i=1;$i<5;$i++)
@@ -10,9 +10,9 @@
                     <div class="position-relative max-width-28">
                         @include('partials.SVG.icon-menu')
                     </div>
-                    <span class="text-dark pb-2">پرداخت امن و اختصاصی</span>
+                    <span class="text-dark fw-bolder fs-5 pb-2">پرداخت امن و اختصاصی</span>
                 </a>
-                <p class="fs-5 ">
+                <p>
                     با ثبت‌نام در دیجی‌فای می‌توانید ۳۰ روز رایگان از تمام خدمات استفاده کنید و فروشگاه خود را بسازید.
                 </p>
             </div>

@@ -72,6 +72,7 @@
             rgba(128, 0, 222, 0.1)
     );
 }
+
 //swiper slides
 .swiper1 {
     width: auto;
@@ -95,6 +96,9 @@
     }
     .swiper-slide.swiper-slide-active{
         transform: translateY(-40px);
+        img{
+            border: 1px solid #000;
+        }
     }
 }
 .swiper-custom{
@@ -102,43 +106,38 @@
         transition-property: transform, opacity;
     }
     .swiper-slide.swiper-slide-active{
-        border: 1px solid #000000;
-    }
-    .swiper-slide.swiper-slide-active:before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 1px solid #ffffff;
-        background-color: transparent;
+        border: 2px solid #000000;
+        @extend .rounded-2;
     }
     .swiper-slide:not(.swiper-slide-active):nth-child(odd):before {
+        @extend .rounded-2;
         content: '';
+        z-index: 10;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        border: 1px solid #ffffff;
+        border: 2px solid #ffffff;
         background-color: #000000;
     }
     .swiper-slide:not(.swiper-slide-active):nth-child(even):before{
+        @extend .rounded-2;
         content: '';
+        z-index: 10;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        border: 1px solid #000000;
+        border: 2px solid #000000;
         background-color: #ffffff;
     }
     .swiper-button-prev{
-        right: -60px!important;
+        left: -60px!important;
     }
     .swiper-button-next{
-        left: -60px!important;
+        right: -60px!important;
     }
     .swiper-button-next, .swiper-button-prev{
         color: #18191F!important;
@@ -159,6 +158,7 @@
     .swiper-pagination{
         background-color: #E6E7E8!important;
         border-radius: 27px!important;
+        bottom: 20px!important;
         .swiper-pagination-bullet{
             background-color: transparent!important;
             width: auto!important;

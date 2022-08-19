@@ -11,28 +11,30 @@ document.addEventListener('DOMContentLoaded', function () {
     let playButton = document.getElementById("play_button");
     let video_tr = document.getElementById("video_tr")
     // Event listener for the play/pause button
-    // playButton.addEventListener("click", function () {
-    //     if (video.paused == true) {
-    //         // Play the video
-    //         video.play();
-    //
-    //         // Update the button text to 'Pause'
-    //         playButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="#fff" class="bi bi-pause-fill" viewBox="0 0 16 16">
-    //                                   <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>
-    //                                 </svg>`;
-    //         video_tr.classList.add('transparent');
-    //
-    //     } else {
-    //         // Pause the video
-    //         video.pause();
-    //
-    //         // Update the button text to 'Play'
-    //         playButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="#fff" class="bi bi-play-fill" viewBox="0 0 16 16">
-    //                                     <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-    //                                 </svg>`;
-    //         video_tr.classList.remove('transparent');
-    //     }
-    // });
+    if(playButton){
+        playButton.addEventListener("click", function () {
+            if (video.paused == true) {
+                // Play the video
+                video.play();
+
+                // Update the button text to 'Pause'
+                playButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="#fff" class="bi bi-pause-fill" viewBox="0 0 16 16">
+                                      <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>
+                                    </svg>`;
+                video_tr.classList.add('transparent');
+
+            } else {
+                // Pause the video
+                video.pause();
+
+                // Update the button text to 'Play'
+                playButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="#fff" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                    </svg>`;
+                video_tr.classList.remove('transparent');
+            }
+        });
+    }
     if (window.matchMedia('(max-width: 1200px)').matches) {
 
         $('.custom-dropdown').on('click', function (e) {
@@ -109,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
         direction: 'horizontal',
         loop: false,
         slidesPerView: 1,
-        grabCursor: false,
+        simulateTouch: false,
         effect: 'creative',
         creativeEffect: {
             limitProgress: 2,
@@ -119,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             next: {
                 // will set `translateX(100%)` on next slides
-                translate: [10, 10, 0],
+                translate: [10, 15, 0],
             },
             shadowPerProgress: true,
             progressMultiplier: 1
@@ -157,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             next: {
                 // will set `translateX(100%)` on next slides
-                translate: [10, 10, 0],
+                translate: [10, 15, 0],
             },
             shadowPerProgress: true,
             progressMultiplier: 1

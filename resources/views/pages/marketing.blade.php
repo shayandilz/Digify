@@ -4,12 +4,12 @@
 
     <div class="py-5 container">
         <section class="row align-items-center min-vh-100">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <img src="{{asset('images/aboutus.jpg')}}"
                      class="img-fluid border rounded-1"
                      alt="...">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <span class="fs-6 text-violet">
                     خدمات اختصاصی دیجی‌فای
                 </span>
@@ -36,8 +36,8 @@
                 </p>
             </div>
         </section>
-        <section class="row py-5">
-            <div class="col-6 px-4 d-flex flex-column gap-4">
+        <section class="row py-5 g-5 g-lg-0">
+            <div class="col-12 col-lg-6 px-4 d-flex flex-column gap-lg-4 gap-2">
                 <h4>
                     ابزارهای مارکتینگ هوشمند
                 </h4>
@@ -48,31 +48,21 @@
                      class="img-fluid border rounded-1"
                      alt="...">
             </div>
-            <div class="col-6 px-4 d-flex flex-column gap-4">
+            <div class="col-12 col-lg-6 px-4 d-flex flex-column-reverse flex-lg-column gap-lg-4 gap-2">
                 <img src="{{asset('images/aboutus.jpg')}}"
                      class="img-fluid border rounded-1"
                      alt="...">
-                <h4>
+                <h4 class="order-2 order-lg-1">
                     ابزارهای مارکتینگ هوشمند
                 </h4>
-                <p>
+                <p class="order-1 order-lg-2">
                     با ابزارهای هوشمند مارکتینگ دیجی‌فای، برند خود را در ذهن مخاطب حک کنید و فروشتان را افزایش دهید.
                 </p>
 
             </div>
         </section>
-        <section class="row py-5">
-            <h3 class="text-center pb-5 text-dark">
-                جدیدترین پست‌های بلاگ دیجی‌فای
-            </h3>
-            @for($i=1;$i<3;$i++)
-                <div class="col-6">
-                    @include('partials.blog-post')
-                </div>
-            @endfor
-        </section>
-
     </div>
+    @include('partials.latest-post')
     @include('partials.joinus')
 
 @endsection

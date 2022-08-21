@@ -6,11 +6,11 @@
         style="background-image: url({{asset('images/home-header.jpg')}}); background-size: cover;background-repeat: no-repeat;"
         class="flex-column d-flex justify-content-center align-items-center vh-65">
         <div class="container text-center text-white ">
-            <h1 class="pb-5 fw-bolder lh-lg fs-1">
+            <h1 class="pb-5 fw-bolder lh-lg fs-1 animate__animated animate__fadeIn">
                 به جمع ۲۰۰۰+ فروشندگان دیجی‌فای بپیوندید و
                 یک ماه رایگان از تمام خدمات ما استفاده کنید.
             </h1>
-            <a class="btn link-dark d-inline-flex align-items-center w-auto justify-content-center">
+            <a class="btn link-dark d-inline-flex align-items-center w-auto justify-content-center animate__animated animate__fadeInUp animate__delay-1s">
                 ثبت‌نام در دیجی‌فای
             </a>
         </div>
@@ -18,15 +18,15 @@
     {{-- services --}}
     <section class="container py-5">
         <div class="row justify-content-center align-items-center text-center">
-            <h3 class="text-dark fw-bolder">
+            <h3 class="text-dark fw-bolder animate__animated animate__fadeIn animate__delay-1s">
                 خدمات اختصاصی دیجی‌فای
             </h3>
-            <p class="py-4 text-dark fw-light">
+            <p class="py-4 text-dark fw-light animate__animated animate__fadeIn animate__delay-2s">
                 دیجی‌فای تمام ابزارها و نرم‌افزارهای جانبی برای مدیریت کسب‌وکارتان را همیشه و همه‌جا در اختیار شما قرار
                 می‌دهد. کافی است با گوشی موبایل یا لپتاپ وارد پنل مدیریتی فروشگاه خود شوید.
             </p>
         </div>
-        <div class="row">
+        <div class="row wow animate__animated animate__fadeIn">
             @for($i=1;$i<9;$i++)
                 <a href="#"
                    class="fadein d-flex flex-column align-items-center gap-1 col-lg col-6 border-start border-semi-light text-center no-border-first no-border-last menu-svg">
@@ -42,26 +42,26 @@
     <section class="container p-lg-5 px-4">
         <div class="row">
             <div class="col-12 col-lg-6 text-dark p-lg-5 mb-5 mb-lg-0">
-                <h3 class="pb-lg-4 pb-2 lh-base fw-bolder">
+                <h3 class="pb-lg-4 pb-2 lh-base fw-bolder wow animate__animated animate__fadeInLeft">
                     دیجی‌فای:
                     <br>
                     شروع مسیر فروش آنلاین
                 </h3>
-                <p>
+                <p class="wow animate__animated animate__fadeInLeft animate__delay-1s">
                     ما تمام موانع را برداشته‌ایم تا شما در کمترین زمان صاحب فروشگاه اینترنتی خودتان شوید و قدم در راه
                     فروش آنلاین بگذارید.
                 </p>
             </div>
             <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0">
                 <div class="card border-0 bg-transparent card-up">
-                    <div class="card-shadow w-100 h-100 rounded-2 d-flex">
+                    <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
-                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
-                        <p class="card-text">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
+                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold wow animate__animated animate__fadeInUp animate__delay-1s">دیجی‌فای، بستر فروش آنلاین</h5>
+                        <p class="card-text wow animate__animated animate__fadeInUp animate__delay-2s">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
                             می‌دهد تا با وارد کردن اطلاعاتتان، یک وب‌سایت اختصاصی برای کسب‌وکارتان بسازید، آن‌را
                             شخصی‌سازی کنید و یک بستر حرفه‌ای برای فروش آنلاین محصولاتتان ایجاد کنید.</p>
                     </div>
@@ -71,14 +71,14 @@
         <div class="row">
             <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5 mb-3 mb-lg-0">
                 <div class="card border-0 bg-transparent card-up">
-                    <div class="card-shadow w-100 h-100 rounded-2 d-flex">
+                    <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
-                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
-                        <p class="card-text">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
+                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold wow animate__animated animate__fadeInUp animate__delay-1s">دیجی‌فای، بستر فروش آنلاین</h5>
+                        <p class="card-text wow animate__animated animate__fadeInUp animate__delay-2s">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
                             می‌دهد تا با وارد کردن اطلاعاتتان، یک وب‌سایت اختصاصی برای کسب‌وکارتان بسازید، آن‌را
                             شخصی‌سازی کنید و یک بستر حرفه‌ای برای فروش آنلاین محصولاتتان ایجاد کنید.</p>
                     </div>
@@ -86,14 +86,14 @@
             </div>
             <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0">
                 <div class="card border-0 bg-transparent">
-                    <div class="card-shadow w-100 h-100  rounded-2 d-flex">
+                    <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
-                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold">دیجی‌فای، بستر فروش آنلاین</h5>
-                        <p class="card-text">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
+                        <h5 class="card-title py-lg-3 pb-0 pt-2 fw-bold wow animate__animated animate__fadeInUp animate__delay-1s">دیجی‌فای، بستر فروش آنلاین</h5>
+                        <p class="card-text wow animate__animated animate__fadeInUp animate__delay-2s">دیجی‌فای با ارائه یک فروشگاه‌ساز کامل با تمام امکانات، به شما این امکان را
                             می‌دهد تا با وارد کردن اطلاعاتتان، یک وب‌سایت اختصاصی برای کسب‌وکارتان بسازید، آن‌را
                             شخصی‌سازی کنید و یک بستر حرفه‌ای برای فروش آنلاین محصولاتتان ایجاد کنید.</p>
                     </div>
@@ -107,7 +107,7 @@
     {{-- join us --}}
     @include('partials.joinus')
     {{--  partners  --}}
-    <section class="container py-5">
+    <section class="container py-5 wow animate__animated animate__fadeIn">
         <h3 class="text-center fw-bolder text-dark">
             همکاران ما در مسیر ارائه خدمات یکپارچه به شما:
         </h3>
@@ -128,7 +128,7 @@
 
     </section>
     {{-- testimonial --}}
-    <section class="container py-5">
+    <section class="container py-5 wow animate__animated animate__fadeIn">
         <h3 class="text-center fw-bolder text-dark fs-3">
             دیگران درباره <span class="highlight-yellow fs-3">دیجی فای</span> چه میگویند؟
         </h3>

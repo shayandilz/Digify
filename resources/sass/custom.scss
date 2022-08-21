@@ -16,6 +16,8 @@
     --animate-repeat: 1;
 }
 
+@import '~animate.css/animate.css';
+
 //custom base classes
 @import "custom/base";
 
@@ -182,5 +184,7 @@
         }
     }
 }
-
+.wow {
+    visibility: hidden;
+}
 @import "responsive";

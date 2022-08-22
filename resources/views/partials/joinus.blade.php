@@ -7,12 +7,12 @@
                 تمام امکانات ما استفاده کنید!
             </h5>
         </div>
-        <div class="col-lg-6 col-12 row justify-content-center align-items-center wow animate__animated animate__fadeIn">
+        <div class="col-lg-6 col-12 row justify-content-center align-items-center wow animate__animated animate__fadeIn icon-section">
             <div
                 class="col-lg-3 col-4 d-flex flex-column align-items-center justify-content-center text-center  position-relative">
                 <div class="d-flex align-items-center justify-content-center border rounded-circle line-dash "
                      style="width: 75px;height: 75px">
-                    <div class="wow animate__animated animate__zoomIn animate__delay-1s">
+                    <div class="icon1">
                         @include('partials.SVG.joinus')
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 class="col-lg-3 col-4 d-flex flex-column align-items-center justify-content-center text-center  position-relative">
                 <div class="d-flex align-items-center justify-content-center border rounded-circle line-dash"
                      style="width: 75px;height: 75px">
-                    <div class="wow animate__animated animate__zoomIn animate__delay-2s">
+                    <div class="icon2">
                         @include('partials.SVG.joinus')
                     </div>
                 </div>
@@ -35,7 +35,7 @@
             <div class="col-lg-3 col-4 d-flex flex-column align-items-center justify-content-center text-center">
                 <div class="d-flex align-items-center justify-content-center border rounded-circle"
                      style="width: 75px;height: 75px">
-                    <div class="wow animate__animated animate__zoomIn animate__delay-3s">
+                    <div class="icon3">
                         @include('partials.SVG.joinus')
                     </div>
                 </div>

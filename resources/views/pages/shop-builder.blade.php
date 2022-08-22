@@ -7,7 +7,10 @@
     @include('partials.service-icon')
 
     <section class="py-5 container px-4 px-lg-0">
-        <div class="row">
+        <div class="row position-relative tile-section">
+            <div class="position-absolute end-0 w-auto translate-middle-y tiles">
+                @include('partials.SVG.tiles')
+            </div>
             <h3 class="text-center pb-5 text-dark fs-2 fw-bolder lh-base wow animate__animated animate__fadeIn">
                 فروشگاه‌ساز دیجی‌فای چگونه کار می‌کند؟
             </h3>
@@ -28,6 +31,9 @@
                     <img width="250px" height="550px" src="#" class="card-img-top border border-semi-light rounded-2"
                          alt="...">
                 </div>
+            </div>
+            <div class="position-absolute start-0 w-auto" style="bottom: -140px">
+                @include('partials.SVG.tiles')
             </div>
         </div>
     </section>

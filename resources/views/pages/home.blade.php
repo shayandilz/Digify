@@ -40,7 +40,7 @@
     </section>
     {{-- about --}}
     <section class="container p-lg-5 px-4">
-        <div class="row">
+        <div class="row ">
             <div class="col-12 col-lg-6 text-dark p-lg-5 mb-5 mb-lg-0">
                 <h3 class="pb-lg-4 pb-2 lh-base fw-bolder wow animate__animated animate__fadeInLeft">
                     دیجی‌فای:
@@ -52,8 +52,8 @@
                     فروش آنلاین بگذارید.
                 </p>
             </div>
-            <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0">
-                <div class="card border-0 bg-transparent card-up">
+            <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0 section-1">
+                <div class="card border-0 bg-transparent box1">
                     <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
@@ -69,8 +69,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5 mb-3 mb-lg-0">
-                <div class="card border-0 bg-transparent card-up">
+            <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5 mb-3 mb-lg-0 section-2">
+                <div class="card border-0 bg-transparent box2">
                     <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
@@ -84,8 +84,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0">
-                <div class="card border-0 bg-transparent">
+            <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0 section-3">
+                <div class="card border-0 bg-transparent box3">
                     <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"

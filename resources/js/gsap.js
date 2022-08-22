@@ -22,7 +22,7 @@ $(function () {
             let section1 = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".section-1",
-                    scrub: true,
+                    scrub: 2,
                     start: "top center",
                     end: "bottom center"
                 }
@@ -31,7 +31,7 @@ $(function () {
             let section2 = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".section-2",
-                    scrub: true,
+                    scrub: 2,
                     start: "top center",
                     end: "bottom center"
                 }
@@ -41,12 +41,12 @@ $(function () {
             let section3 = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".section-3",
-                    scrub: true,
+                    scrub: 2,
                     start: "top center",
                     end: "bottom center"
                 }
             })
-                .fromTo(box3, {translateY: 0}, {translateY: 50})
+                .fromTo(box3, {translateY: 0}, {translateY: -70})
         }
     });
 

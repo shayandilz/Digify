@@ -48,6 +48,9 @@ main{
 .lazy{
     transition: all 0.3s ease-in-out;
 }
+.lazy-slow{
+    transition: all 0.9s ease-in-out;
+}
 .no-border-first:first-child{
     border-left: none!important;
 }

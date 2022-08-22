@@ -54,7 +54,7 @@
             </div>
             <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0 section-1">
                 <div class="card border-0 bg-transparent box1">
-                    <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
+                    <div class="w-100 h-100 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
                              alt="...">
@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5 mb-3 mb-lg-0 section-2">
                 <div class="card border-0 bg-transparent box2">
-                    <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
+                    <div class="w-100 h-100 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
                              alt="...">
@@ -86,7 +86,7 @@
             </div>
             <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0 section-3">
                 <div class="card border-0 bg-transparent box3">
-                    <div class="card-shadow w-100 h-100 rounded-2 d-flex wow animate__animated animate__fadeInUp">
+                    <div class="w-100 h-100 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn">
                         <img width="300px" height="400px" src="#"
                              class="card-img-top border border-semi-light rounded-2"
                              alt="...">

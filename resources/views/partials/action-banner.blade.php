@@ -6,7 +6,7 @@
                     یک ماه رایگان از تمام خدمات ما استفاده کنید.
                 </h4>
             </div>
-        <a href="#" class="btn link-dark">
+        <a href="#" class="btn link-dark d-inline-flex w-auto justify-content-center align-items-center">
             شروع استفاده از دیجی‌فای
         </a>
     </div>

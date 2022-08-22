@@ -164,8 +164,19 @@
             border-radius: 27px!important;
         }
         .swiper-pagination-bullet.swiper-pagination-bullet-active{
-            background-color: #FFFFFF!important;
+            background-color: transparent!important;
             font-weight: 600!important;
+        }
+        > span:last-child{
+            position: absolute;
+            height: calc(100% - 10px);
+            z-index: -1;
+            width: 0;
+            border-radius: 20px;
+            transition: all 0.4s ease-in-out;
+            right: 0;
+            bottom: 5px;
+            background-color: #fff;
         }
     }
     ul.text-start{

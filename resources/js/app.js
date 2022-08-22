@@ -6,7 +6,6 @@ import 'swiper/css/bundle';
 import $ from 'jquery';
 
 
-
 const wow = new WOW(
     {
         boxClass: 'wow',      // animated element css class (default is wow)
@@ -29,10 +28,9 @@ const shadow = new WOW(
         // duration: 1.5,
         mobile: true,       // trigger animations on mobile devices (default is true)
         live: true,       // act on asynchronously loaded content (default is true)
-        callback: function (box){
-            if(box){
-                console.log(box)
-                setTimeout(function (){
+        callback: function (box) {
+            if (box) {
+                setTimeout(function () {
                     box.classList.add('card-shadow')
                 }, 1000)
             }
@@ -52,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let playButton = document.getElementById("play_button");
     let video_tr = document.getElementById("video_tr")
     // Event listener for the play/pause button
-    if(playButton){
+    if (playButton) {
         playButton.addEventListener("click", function () {
             if (video.paused == true) {
                 // Play the video
@@ -174,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     // swiper3.changeLanguageDirection('rtl');
     let names = [];
-    $(".swiper-wrapper .swiper-slide").each(function(i) {
+    $(".swiper-wrapper .swiper-slide").each(function (i) {
         names.push($(this).data("name"));
     });
     // var menu = ['Slide 1', 'Slide 2', 'Slide 3']
@@ -190,6 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
             renderBullet: function (index, className) {
                 return '<span class="' + className + '">' + (names[index]) + '</span>';
+
             },
         },
         creativeEffect: {
@@ -207,6 +206,28 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     // swiper4.changeLanguageDirection('rtl');
+    // get tab active width
+    let div = document.querySelector('.swiper-pagination > span:last-child');
+    let newText = document.createElement( 'span' ); // create new textarea
+    div.parentNode.insertBefore( newText, div.nextSibling );
+
+    let markerfirst = document.querySelector('.swiper-pagination > span:first-child');
+    let marker = document.querySelector('.swiper-pagination > span:last-child');
+    let item = document.querySelectorAll('.swiper-pagination span');
+
+    marker.style.left = markerfirst.offsetLeft+"px";
+    marker.style.width = markerfirst.offsetWidth+"px";
+
+    function indicator(e){
+        marker.style.left = e.offsetLeft+"px";
+        marker.style.width = e.offsetWidth+"px";
+    }
+    item.forEach(link =>{
+        link.addEventListener('click', (e) => {
+            indicator(e.target)
+        })
+    })
+
 
 })
 

@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container">
-        <section class="row py-5 text-center justify-content-center gap-4">
+        <section class="row py-5 text-center justify-content-center gap-4  wow animate__animated animate__fadeIn">
             <div class="col-lg-10 col-12">
                 <h1 class="text-dark pb-4">
                     تعرفه‌های دیجی‌فای
@@ -14,10 +14,12 @@
                     نیاز خود هزینه می‌کنید تا با کمترین قیمت به بیشترین امکانات دسترسی داشته باشید.
                 </p>
                 <div class="py-5 swiper swiper4 swiper-custom overflow-visible px-4">
-                    <div class="swiper-pagination w-auto gap-2 p-2 d-inline-flex position-relative float-end"></div>
+                    <div class="swiper-pagination w-auto gap-2 d-inline-flex position-relative float-end" style="padding: 8px 4px;">
+                        <span class="marker"></span>
+                    </div>
                     <ul class="swiper-wrapper m-0 p-0 list-unstyled">
                         @for($i=1;$i<4;$i++)
-                            <li class="swiper-slide position-relative bg-white rounded-1" data-name="سه ماهه">
+                            <li class="swiper-slide position-relative bg-white rounded-1" data-name="شش ماهه">
                                 <div
                                     class="w-auto bg-white rounded-1 border position-absolute top-0 ms-lg-5 ms-3 translate-middle-y">
                                     <div class="d-flex p-2 align-items-center">

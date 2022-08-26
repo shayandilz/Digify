@@ -2,7 +2,11 @@
 
 @section('content')
 
-    <div class="container">
+
+    <div class="position-fixed blog-progress w-100 z-top">
+        <progress class="postProgressBar w-100" max="100" value="0"></progress>
+    </div>
+    <div class="container" id="startProgressBar">
         <div class="row align-items-center">
             <div class="col-12">
                 <nav aria-label="breadcrumb">
@@ -89,7 +93,7 @@
                     خاصی به مشتری ارائه می‌دهند را بگوییم.
                 </p>
             </article>
-            <aside class="col-lg-2 col-12">
+            <aside class="col-lg-2 col-12 sticky-side">
                 <div class="bg-purple d-flex flex-column gap-4 px-3 py-5 text-center">
                     <span class="text-white">
                         یک ماه

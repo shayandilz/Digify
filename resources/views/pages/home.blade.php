@@ -54,9 +54,9 @@
             </div>
             <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0 section-1">
                 <div class="card border-0 bg-transparent box1">
-                    <div class="w-100 h-100 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn animate__delay-1s">
-                        <img width="300px" height="400px" src="#"
-                             class="card-img-top border border-semi-light rounded-2"
+                    <div class="ratio ratio-1x1 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn animate__delay-1s">
+                        <img src="#"
+                             class="object-fit border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
@@ -71,9 +71,9 @@
         <div class="row">
             <div class="col-12 col-lg-6 no-translate translate-middle-y p-lg-5 mb-3 mb-lg-0 section-2">
                 <div class="card border-0 bg-transparent box2">
-                    <div class="w-100 h-100 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn animate__delay-2s">
-                        <img width="300px" height="400px" src="#"
-                             class="card-img-top border border-semi-light rounded-2"
+                    <div class="ratio ratio-1x1 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn animate__delay-2s">
+                        <img src="#"
+                             class="object-fit border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
@@ -86,9 +86,9 @@
             </div>
             <div class="col-12 col-lg-6 p-lg-5 mb-3 mb-lg-0 section-3">
                 <div class="card border-0 bg-transparent box3">
-                    <div class="w-100 h-100 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn animate__delay-3s">
-                        <img width="300px" height="400px" src="#"
-                             class="card-img-top border border-semi-light rounded-2"
+                    <div class="ratio ratio-1x1 rounded-2 d-flex lazy-slow shadow_box animate__animated animate__zoomIn animate__delay-3s">
+                        <img src="#"
+                             class="object-fit border border-semi-light rounded-2"
                              alt="...">
                     </div>
                     <div class="card-body text-dark px-0">
@@ -128,7 +128,7 @@
 
     </section>
     {{-- testimonial --}}
-    <section class="container py-5 wow animate__animated animate__fadeIn">
+    <section class="container py-5 wow animate__animated animate__fadeIn animate__delay-2s">
         <h3 class="text-center fw-bolder text-dark fs-3">
             دیگران درباره <span class="highlight-yellow fs-3">دیجی فای</span> چه میگویند؟
         </h3>

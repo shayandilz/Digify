@@ -2,7 +2,10 @@
 
 @section('content')
 
-    <section class="py-5 d-flex align-items-center">
+    <section class="py-5 d-flex align-items-center vh-65 position-relative">
+        <div class="position-absolute top-0 end-0 mt-4">
+            @include('partials.SVG.curve-line')
+        </div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-12">

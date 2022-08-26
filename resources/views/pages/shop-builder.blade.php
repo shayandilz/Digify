@@ -3,7 +3,7 @@
 @section('content')
 
     @include('partials.banner-top')
-
+    <div id="scroll-to" class="opacity-0 pt-5"></div>
     @include('partials.service-icon')
 
     <section class="py-5 container px-4 px-lg-0">
@@ -26,9 +26,9 @@
                     </div>
                 @endfor
             </div>
-            <div class="col-lg-6 col-12 wow animate__animated animate__fadeIn">
-                <div class="card-shadow w-100 h-100 rounded-2 d-flex">
-                    <img width="250px" height="550px" src="#" class="card-img-top border border-semi-light rounded-2"
+            <div class="col-lg-6 col-12 wow animate__animated animate__fadeIn d-flex justify-content-center">
+                <div class="card-shadow w-75 rounded-2 d-flex" style="height: 700px">
+                    <img src="#" class="w-100 border border-semi-light rounded-2"
                          alt="...">
                 </div>
             </div>

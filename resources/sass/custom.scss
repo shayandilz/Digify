@@ -48,7 +48,10 @@
 .card-shadow {
     box-shadow: -15px 15px 0px 0px #000;
 }
-
+//svg line draw
+.drawSvg path{
+    visibility: hidden;
+}
 //line between circles in JOIN US section
 .line-dash:before {
     content: '';

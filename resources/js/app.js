@@ -123,12 +123,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     const swiper2 = new Swiper('.swiper2', {
         // Optional parameters
+
         direction: 'horizontal',
         loop: true,
         spaceBetween: 35,
         slidesPerView: 3,
         centeredSlides: true,
-        roundLengths: true,
+        roundLengths: false,
         grabCursor: true,
         pagination: {
             el: '.swiper-pagination',
@@ -143,8 +144,19 @@ document.addEventListener('DOMContentLoaded', function () {
             1050: {
                 slidesPerView: 3,
             }
-        }
+        },
+        on: {
+            afterInit: function () {
+                setTimeout(function (){
+                    $('.swiper2 .swiper-wrapper .card').each(function () {
+                        let width = $(this).width();
+                        $(this).height(width)
+                    })
+                }, 400)
+            },
+        },
     });
+
     const swiper3 = new Swiper('.swiper3', {
         // Optional parameters
         direction: 'horizontal',
@@ -207,27 +219,29 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     // swiper4.changeLanguageDirection('rtl');
     // get tab active width
-    let div = document.querySelector('.swiper-pagination > span:last-child');
-    let newText = document.createElement( 'span' ); // create new textarea
-    div.parentNode.insertBefore( newText, div.nextSibling );
+    if (swiper4){
+        let div = document.querySelector('.swiper-pagination > span:last-child');
+        let newText = document.createElement('span'); // create new textarea
+        div.parentNode.insertBefore(newText, div.nextSibling);
 
-    let markerfirst = document.querySelector('.swiper-pagination > span:first-child');
-    let marker = document.querySelector('.swiper-pagination > span:last-child');
-    let item = document.querySelectorAll('.swiper-pagination span');
+        let markerfirst = document.querySelector('.swiper-pagination > span:first-child');
+        let marker = document.querySelector('.swiper-pagination > span:last-child');
+        let item = document.querySelectorAll('.swiper-pagination span');
 
-    marker.style.left = markerfirst.offsetLeft+"px";
-    marker.style.width = markerfirst.offsetWidth+"px";
+        marker.style.left = markerfirst.offsetLeft + "px";
+        marker.style.width = markerfirst.offsetWidth + "px";
 
-    function indicator(e){
-        marker.style.left = e.offsetLeft+"px";
-        marker.style.width = e.offsetWidth+"px";
-    }
-    item.forEach(link =>{
-        link.addEventListener('click', (e) => {
-            indicator(e.target)
+        function indicator(e) {
+            marker.style.left = e.offsetLeft + "px";
+            marker.style.width = e.offsetWidth + "px";
+        }
+
+        item.forEach(link => {
+            link.addEventListener('click', (e) => {
+                indicator(e.target)
+            })
         })
-    })
-
+    }
 
 })
 

@@ -15,21 +15,21 @@
                 <h6 class="fw-bold pb-3 wow animate__animated animate__fadeInDown">
                     اطلاعات تماس
                 </h6>
-                <ul class="list-unstyled pe-0 small fw-lighter text-semi-light d-flex flex-column gap-3 wow animate__animated animate__fadeIn animate__delay-1s">
+                <ul class="list-unstyled pe-0 small fw-lighter d-flex flex-column gap-3 wow animate__animated animate__fadeIn animate__delay-1s">
                     <li>
-                        <p>
-                            کوچه نعیمی، پلاک ۳ واحد ۴مرکزی، خیابان میرزای شیرازی شمالی،استان تهران، شهرستان تهران، بخش
-                        </p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
+                            استان تهران، شهرستان تهران، بخش مرکزی، خیابان میرزای شیرازی شمالی، کوچه نعیمی، پلاک ۳، واحد ۴
+                        </a>
                     </li>
                     <li>
-                        <p>
-                            ۰۲۱- ۴۰۸۸۵۵۲۳
-                        </p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
+                            021-40885523
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             info@digify.shop
-                        </p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -39,24 +39,24 @@
                 </h6>
                 <ul class="list-unstyled pe-0 small fw-lighter text-semi-light d-flex flex-column gap-3 wow animate__animated animate__fadeIn animate__delay-1s">
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             اینستاگرام
-                        </p>
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             توییتر
-                        </p>
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             لینکدین
-                        </p>
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             یوتوب
-                        </p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -66,19 +66,19 @@
                 </h6>
                 <ul class="list-unstyled pe-0 small fw-lighter text-semi-light d-flex flex-column gap-3 wow animate__animated animate__fadeIn animate__delay-1s">
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             بلاگ دیجی‌فای
-                        </p>
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             درباره ما
-                        </p>
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             گسترش کسب‌وکار با دیجی‌فای
-                        </p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -88,19 +88,24 @@
                 </h6>
                 <ul class="list-unstyled pe-0 small fw-lighter text-semi-light d-flex flex-column gap-3 wow animate__animated animate__fadeIn animate__delay-1s">
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             سوالات متداول
-                        </p>
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             خدمات دیجی‌فای
-                        </p>
+                        </a>
                     </li>
                     <li>
-                        <p>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
                             دستیار دیجی‌فای
-                        </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-semi-light lazy text-decoration-none" href="#">
+                            فرصت‌های شغلی
+                        </a>
                     </li>
                 </ul>
             </div>

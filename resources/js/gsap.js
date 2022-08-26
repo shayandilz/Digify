@@ -14,6 +14,45 @@ $(function () {
 
 
 
+    if(gsap.utils.toArray('progress, .sticky-side')){
+        gsap.to('progress', {
+            value: 100,
+            ease: 'none',
+            visibility:'visible',
+            scrollTrigger: {
+                trigger: "#startProgressBar",
+                scrub: 0.3,
+                start: 'start 0px',
+                end: 'bottom bottom'
+            }
+        });
+        ScrollTrigger.matchMedia({
+            "(min-width: 1080px)": function () {
+                gsap.to('article',{
+                    scrollTrigger:{
+                        trigger: '.sticky-side',
+                        pin: true,
+                        start: 'top 50px',
+                        end: 'bottom center'
+                    }
+                })
+            }
+        })
+
+    }
+
+
+
+    // check for element
+    if(gsap.utils.toArray('#drawSvg')){
+        let shapes = "#drawSvg path",
+            tl = gsap.timeline();
+
+        tl.fromTo(shapes, {duration: 5, visibility:"visible", drawSVG:"0%"}, {duration: 5, drawSVG:"100%"})
+    }
+
+
+
     let targets = gsap.utils.toArray(
         ".icon-section > div," +
         ".icon-section," +

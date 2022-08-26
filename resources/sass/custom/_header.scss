@@ -32,5 +32,11 @@ header {
         top: 45px;
     }
 }
+.blog-progress{
+    visibility: hidden;
+}
+.scrolled .blog-progress{
+    top: 52px;
+}
 
 

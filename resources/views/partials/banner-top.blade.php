@@ -15,7 +15,7 @@
                     <a href="#" class="w-auto link-dark border rounded-1 btn px-4 py-2 fs-6 d-flex gap-2 align-items-center animate__animated animate__fadeIn animate__delay-2s">
                         ثبت‌نام در دیجی‌فای
                     </a>
-                    <a href="#" class="w-auto link-white border rounded-1 btn px-4 py-2 fs-6 d-flex gap-2 align-items-center animate__animated animate__fadeIn animate__delay-3s">
+                    <a href="#scroll-to" class="w-auto link-white border rounded-1 btn px-4 py-2 fs-6 d-flex gap-2 align-items-center animate__animated animate__fadeIn animate__delay-3s">
                         بیش‌تر بخوانید
                     </a>
                 </div>

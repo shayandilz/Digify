@@ -11,7 +11,7 @@
                     <path d="M11.5303 19.5H21.0003" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </button>
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand me-0 me-lg-3" href="/">
                 <img class="lazy" height="30" src="{{ asset('images/logo-header.svg') }}" alt="">
             </a>
             <div class="collapse navbar-collapse justify-content-start mt-4 mt-lg-0" id="navbarNav">

@@ -6,7 +6,6 @@ p{
 }
 body {
     direction: ltr;
-    background-color: #F9FBFF;
     font-family: Dana;
 }
 main{
@@ -35,6 +34,9 @@ a.text-semi-light:hover{
 }
 .z-top{
     z-index: 2;
+}
+.z-below{
+    z-index: -1000;
 }
 .pt-nav{
     padding-top: 80px;

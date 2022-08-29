@@ -20,7 +20,7 @@
 <body class="p-0">
     <div id="app">
         @include('layout.header')
-        <main>
+        <main class="bg-back-main">
             @yield('content')
         </main>
         @include('layout.footer')

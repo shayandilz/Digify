@@ -126,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         direction: 'horizontal',
         loop: true,
+        autoplay: true,
         spaceBetween: 35,
         slidesPerView: 3,
         centeredSlides: true,
@@ -135,6 +136,10 @@ document.addEventListener('DOMContentLoaded', function () {
             el: '.swiper-pagination',
             type: 'bullets',
             clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         },
         disableOnInteraction: false,
         breakpoints: {
@@ -147,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         on: {
             afterInit: function () {
-                setTimeout(function (){
+                setTimeout(function () {
                     $('.swiper2 .swiper-wrapper .card').each(function () {
                         let width = $(this).width();
                         $(this).height(width)
@@ -219,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     // swiper4.changeLanguageDirection('rtl');
     // get tab active width
-    if (swiper4){
+    if (swiper4) {
         let div = document.querySelector('.swiper-pagination > span:last-child');
         let newText = document.createElement('span'); // create new textarea
         div.parentNode.insertBefore(newText, div.nextSibling);

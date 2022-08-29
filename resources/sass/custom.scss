@@ -100,6 +100,23 @@
             border: 1px solid #000;
         }
     }
+    .swiper-button-prev{
+        left: -60px!important;
+    }
+    .swiper-button-next{
+        right: -60px!important;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        color: #18191F!important;
+        border: 1px solid #000!important;
+        border-radius: 50%!important;
+        width: 30px!important;
+        height: 30px!important;
+        font-weight: 600!important;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 13px!important;
+    }
 }
 .swiper-custom{
     .swiper-slide{

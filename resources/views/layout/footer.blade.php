@@ -1,4 +1,4 @@
-<footer class="bg-white pt-5">
+<footer class="bg-white pt-5 position-fixed bottom-0 end-0 start-0 w-100 z-below">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-12">

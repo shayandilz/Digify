@@ -1,7 +1,12 @@
 @include media-breakpoint-up(lg) {
-
+    main{
+        margin-bottom: 500px
+    }
 }
 @include media-breakpoint-down(lg) {
+    main{
+        margin-bottom: 100vh;
+    }
     .no-border-first.no-border-last{
         border: none!important;
     }

@@ -18,6 +18,7 @@ $nav-black: #171C22;
 $battleship-grey: #878787; //light
 $platinum: #E8E7E7; //lighter
 
+$background-color:#F9FBFF;
 $primary: $indigo;
 $danger: $amethyst;
 $body-color: $eerie-black;
@@ -25,6 +26,7 @@ $body-text: $eerie-black;
 $dark: $eerie-black;
 
 $custom-colors: (
+    "back-main":$background-color,
     "violet": $indigo,
     "dark": $dark,
     "navblack" : $nav-black,
